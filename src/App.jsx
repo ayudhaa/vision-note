@@ -154,7 +154,7 @@ export default function App() {
           </div>
           {notes.length === 0 ? (
             <div className="text-center py-16 bg-white/50 rounded-[2rem] border-2 border-dashed border-slate-200">
-                <p className="text-[10px] font-bold uppercase tracking-widest text-slate-300">Belum ada aktivitas terbaru</p>
+                <p className="text-[10px] font-bold uppercase tracking-widest text-slate-300">Belum ada rekaman suara</p>
             </div>
           ) : (
             notes.map(note => (
